@@ -9,6 +9,18 @@ body {
   font-size: 14px;
 }
 
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
 h5 {
   font-size: 1.1rem;
   text-transform: uppercase;
@@ -35,6 +47,14 @@ ul {
   align-items: center;
 }
 
+.text-primary {
+  color: #427cfa;
+}
+
+.section-heading {
+  text-align: center;
+}
+
 .py-1 {
   padding: 0.5rem 0;
 }
@@ -49,6 +69,96 @@ ul {
 
 .py-4 {
   padding: 3rem 0;
+}
+
+/* ------------- */
+/* Cloth Gallery */
+/* ------------- */
+#img-gallery {
+  margin-top: 6.5rem;
+}
+
+#img-gallery .text-primary {
+  text-decoration: underline;
+}
+
+#img-gallery .cloth-gallery {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+#img-gallery .cloth-gallery .cloth-item > img {
+  object-fit: cover;
+  width: 100%;
+}
+
+/* ------------- */
+/* Services */
+/* ------------- */
+#services .service {
+  display: flex;
+  text-align: left;
+}
+
+#services .service i {
+  color: #427cfa;
+  margin-right: 1.3rem;
+  align-self: top;
+  margin-bottom: 0;
+}
+
+#services .service p {
+  color: #838383;
+}
+
+/* ------------- */
+/* NewsLetter */
+/* ------------- */
+
+#newsletter {
+  background-color: #427cfa;
+}
+
+#newsletter h5 {
+  color: #fff;
+}
+
+#newsletter .form-group {
+  display: flex;
+  align-items: center;
+  width: 55%;
+}
+
+#newsletter .form-group .form-field {
+  display: block;
+  width: 80%;
+  padding: 0.5rem 1rem;
+  font-weight: 400;
+  font-family: inherit;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#newsletter .form-group span {
+  text-transform: uppercase;
+  padding: 0.5rem 1.25rem;
+  display: block;
+  background-color: black;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#newsletter .social-icons {
+  display: flex;
+}
+
+#newsletter .social-icons li {
+  margin-left: 1.25rem;
+}
+
+#newsletter .social-icons i {
+  color: #fff;
 }
 
 /* ------------- */
