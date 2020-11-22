@@ -1,3 +1,6 @@
+import Navbar from './components/Navbar';
+import GridSection from './components/GridSection';
+import NewArrival from './components/NewArrival';
 import TrendingSection from './components/TrendingSection';
 import LatestGallery from './components/LatestGallery';
 import ClothGallery from './components/ClothGallery';
@@ -10,6 +13,9 @@ import './App.css';
 function App() {
   return (
     <div>
+      <Navbar />
+      <GridSection />
+      <NewArrival />
       <TrendingSection />
       <LatestGallery />
       <ClothGallery />
