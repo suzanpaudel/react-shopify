@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar';
+import MainHeader from './components/MainHeader';
 import GridSection from './components/GridSection';
 import NewArrival from './components/NewArrival';
 import TrendingSection from './components/TrendingSection';
@@ -14,6 +15,7 @@ function App() {
   return (
     <div>
       <Navbar />
+      <MainHeader />
       <GridSection />
       <NewArrival />
       <TrendingSection />
